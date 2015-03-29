@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Squad Squawks...</title>
+	<link rel="shortcut icon" href="http://www.dilisi.com/s/misc/favicon.png?1390392883">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="style2.css">
+	<script src="jquery-1.11.2.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+	<center><h1 class="title">Squad Squawks...</h1></center>
+	<center><h2 class="subtitle">Ask us a question!</h2></center>
+	</div></div></div>
+	<center><input style="width:50%"></input></center>
+	<br>
+	<center><button class="btn" id="submit">submit</button></center>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<h1 class="snubtitle">What Snoob SHOUTS</h1>
+				<img style='width:100%;height:21em' src="snub.JPG">
+				<h2 id="snoob"></h2>
+			</div>
+			<div class="col-md-4 text-center">
+				<h1 class="mootitle">What Moolissa MooOooOoos</h1>
+				<img style='width:100%;height:21em' src="moolissa.png">
+				<h2 id="moo"></h2>
+			</div>
+			<div class="col-md-4 text-center">
+				<h1 class="ratchtitle">What Ratchet <i>Remarks</i></h1>
+				<img style='width:100%;height:21em' src="ratchet.JPG">
+				<h2 id="ratch"></h2>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	$("#submit").click(function(){
+		var snoobphrases = ["Seems UNFAVORABLE", "I DON'T THINK you can even", "Please stop asking questions", "Is that EVEN a question?", "GO FOR IT"];
+		var rand1 = Math.floor(Math.random() * 5);
+		$('#snoob').text(snoobphrases[rand1]);
+		var moophrases = ["That's utter-ly unacceptable!", "I've herd enough of this", "Moo do moo","What's your beef?!", "Sounds like a mis-steak"];
+		var rand2 = Math.floor(Math.random() * 5);
+		$('#moo').text(moophrases[rand2]);
+		var ratchphrases = ["How about no", "Are you kidding me", "Hell yea!!!", "If I were a genie, I'd rather go back into the bottle", "I'm judging you SO hard through the screen"];
+		var rand3 = Math.floor(Math.random() * 5);
+		$('#ratch').text(ratchphrases[rand3]);
+	});
+</script>
+</html>

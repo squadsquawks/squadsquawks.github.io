@@ -1,0 +1,57 @@
+body {
+	background-image: url(http://www.psd-dude.com/tutorials/resources-images/cork-texture-for-photoshop/158a-cork-board-iphone-ipad-background.jpg);
+	background-position: center center;
+	background-repeat: repeat;
+	background-color: white;
+}
+
+
+h2 {
+	color: white;
+}
+
+.title {
+	background-color: #F00ACF;
+	color: white;
+	border-width: 3px;
+	border: solid;
+	border-color: white;
+}
+
+.subtitle {
+	background-color: yellow;
+	color: black;
+	border-width: 3px;
+	border: solid;
+	border-color: white;
+}
+
+.snubtitle {
+	background-color: #C6ADF9;
+	color: black;
+	border-width: 3px;
+	border: solid;
+	border-color: white;
+}
+
+.mootitle {
+	background-color: #3AF002;
+	color: black;
+	border-width: 3px;
+	border: solid;
+	border-color: white;
+}
+
+.ratchtitle {
+	background-color: #1EE3FF;
+	color: black;
+	border-width: 3px;
+	border: solid;
+	border-color: white;
+}
+
+img {
+	border-width: 3px;
+	border: solid;
+	border-color: white;
+}
